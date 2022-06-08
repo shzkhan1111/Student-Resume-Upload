@@ -54,7 +54,7 @@ namespace shahzaib
             app.UseAuthorization();
 
 
-            //config default rute
+            //config rute and default
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
