@@ -1,0 +1,6 @@
+﻿start up 
+	config services called first (registered dependencies)(add services to our container(any functionality you want to register)) called by runtime 
+	config method	
+	
+	env check if it host or development based on that we config the pipe line
+
