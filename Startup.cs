@@ -53,7 +53,6 @@ namespace shahzaib
             //auth mentioned befere end point as order matters
             app.UseAuthorization();
 
-
             //config rute and default
             app.UseEndpoints(endpoints =>
             {
