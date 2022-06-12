@@ -14,5 +14,8 @@ namespace shahzaib.Models
         }
         public DbSet<Category> Category { get; set; }
         public DbSet<Student> Students { get; set; }
+        public DbSet<Applicant> Applicants { get; set; }
+        public DbSet<Experience> Experiences { get; set; }
+
     }
 }
